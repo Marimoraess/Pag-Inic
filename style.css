@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fff9ed;
+    margin-bottom: 20px;
+    height: 77px;
+    width: 100%;
+
+}
+
+nav .logo {
+    font-size: 20px;
+    color: black;
+    padding: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    opacity: 0.8;
+
+}
+
+nav li {
+    padding-right: 20px;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+
+    font-family: "Palatino Linotype";
+    font-size: 18px;
+    background-color: #fff9ed;
+    color: #333;
+}
+h1{
+    padding-bottom: 20px;
+}
+
+section {
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 90px;
+    padding: 20px;
+   
+
+}
+
+section a {
+    color: #db2354;
+    text-decoration: none;
+}
+
+img{
+    width: 70%;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.colleen{
+    width: 1050px;
+}
+.link3{
+    margin-right: 40px;
+}
+.link4{
+    padding-left: 69px;
+    padding-right: 60px;
+}
+.esconder{
+    display: none;
+}
+@media (max-width: 560px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #fff;
+        margin-bottom: 20px;
+        height: 97px;
+        width: 100%;
+    
+    }
+   
+    nav .logo{
+        font-size: 20px;
+        color:black;
+        margin-left: 35px;
+        
+    }
+    
+   
+     nav li{
+        padding-right: 20px;
+        padding-bottom: 15px;
+    }
+     nav li a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 20px;
+    }
+    .tudo{
+        margin: 0px;
+    }
+    img{
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    ul{
+        margin: 0;
+        display: block;
+    }
+    .colleen{
+        width: 100%;
+    }
+    .esconder{
+        display: block;
+    }
+    .links{
+        display: none;
+    }
+}
